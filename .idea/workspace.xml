@@ -6,7 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0015fb4-f644-4fa7-8327-162ccef37801" name="Default Changelist" comment="" />
+    <list default="true" id="e0015fb4-f644-4fa7-8327-162ccef37801" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counters/ApplicationScoped_Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counters/RequestScoped_Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counters/SessionScoped_Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Students/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Students/Student2DbUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/css/student_table_demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/students2.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/students2_datatable.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/WEB-INF/classes/Counters/Counter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/WEB-INF/classes/Counters/Counters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/counter2.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/counters.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/counters.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/student_response.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JEDP_war_exploded/student_response.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JEDP/Counters/Counter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JEDP/Counters/Counters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counters/Counters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/counters.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/counters.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student_response.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/student_response.xhtml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,28 +67,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
-          <entry key="xhtml" value="27" />
-          <entry key="xml" value="5" />
+          <entry key="css" value="3" />
+          <entry key="java" value="18" />
+          <entry key="xhtml" value="32" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="XHTML" value="27" />
-          <entry key="XML" value="5" />
+          <entry key="CSS" value="3" />
+          <entry key="JAVA" value="18" />
+          <entry key="XHTML" value="32" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1520" />
-          <entry key="xhtml" value="2857" />
+          <entry key="css" value="1" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="2137" />
+          <entry key="xhtml" value="4005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1520" />
-          <entry key="XHTML" value="2857" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="2137" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="XHTML" value="4005" />
         </counts>
       </usages-collector>
     </session>
@@ -84,50 +111,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/student_response.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/counters.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/students2.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/hello-world.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Counters/Counters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/counters.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/students2_datatable.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="517">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Students/Student2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/css/student_table_demo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Students/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Students/Student2DbUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Counters/ApplicationScoped_Counter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +206,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/counters.xhtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -149,7 +219,6 @@
         <option value="$PROJECT_DIR$/web/hello-world.xhtml" />
         <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/web/myResponse.xhtml" />
-        <option value="$PROJECT_DIR$/web/student_response.xhtml" />
         <option value="$PROJECT_DIR$/src/try1.java" />
         <option value="$PROJECT_DIR$/src/Students/try1.java" />
         <option value="$PROJECT_DIR$/src/Students/Student.java" />
@@ -160,8 +229,18 @@
         <option value="$PROJECT_DIR$/web/counter2.xhtml" />
         <option value="$PROJECT_DIR$/web/city_tour.xhtml" />
         <option value="$PROJECT_DIR$/src/Counters/Counter2.java" />
+        <option value="$PROJECT_DIR$/web/student_response.xhtml" />
         <option value="$PROJECT_DIR$/src/Counters/Counters.java" />
+        <option value="$PROJECT_DIR$/src/Counters/RequestScoped_Counter.java" />
+        <option value="$PROJECT_DIR$/src/Counters/SessionScoped_Counter.java" />
+        <option value="$PROJECT_DIR$/src/Counters/ApplicationScoped_Counter.java" />
+        <option value="$PROJECT_DIR$/src/Students/Student2DbUtil.java" />
         <option value="$PROJECT_DIR$/web/counters.xhtml" />
+        <option value="$PROJECT_DIR$/web/students2.xhtml" />
+        <option value="$PROJECT_DIR$/web/resources/css/students2_datatable.css" />
+        <option value="$PROJECT_DIR$/web/students2_datatable.xhtml" />
+        <option value="$PROJECT_DIR$/web/resources/css/student_table_demo.css" />
+        <option value="$PROJECT_DIR$/src/Students/Student2.java" />
       </list>
     </option>
   </component>
@@ -184,11 +263,31 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="142" />
-    <option name="y" value="49" />
-    <option name="width" value="1177" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="201" />
+    <option name="y" value="154" />
+    <option name="width" value="1038" />
+    <option name="height" value="661" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>XmlWrongFileType</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -229,12 +328,37 @@
               <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEDP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Counters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JEDP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Students" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEDP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tour" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JEDP" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JEDP" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JEDP" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JEDP" type="b2602c69:ProjectViewProjectNode" />
@@ -252,8 +376,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548401539164" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548420755940" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/App" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -261,6 +385,13 @@
     <property name="project.structure.side.proportion" value="0.3404941" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\JEDP\web\resources\css" />
+      <recent name="C:\Users\admin\Desktop\JEDP\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Counters" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\JEDP\web" />
     </key>
@@ -368,12 +499,12 @@
       <workItem from="1548254899380" duration="14853000" />
       <workItem from="1548289427420" duration="614000" />
       <workItem from="1548313819159" duration="1616000" />
-      <workItem from="1548396399347" duration="2712000" />
+      <workItem from="1548396399347" duration="16504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41426000" />
+    <option name="totallyTimeSpent" value="55218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +519,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28139183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18759455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -398,7 +529,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26841244" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.299509" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,24 +626,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Students/try1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Students/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tour/Tour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tour_form.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -554,20 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/student_response.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/counter2.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -577,26 +680,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counters/Counters.java">
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/ee7/taglib/html_basic.taglib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="6488" column="25" lean-forward="true" selection-start-line="6488" selection-start-column="25" selection-end-line="6488" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tour_form.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/student_response.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counters/RequestScoped_Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counters/SessionScoped_Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counters/ApplicationScoped_Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/counters.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="272">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students2.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/students2_datatable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Students/Student2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/student_table_demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Students/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Students/Student2DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/students2_datatable.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -610,7 +824,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3404941" />
                 <option value="0.5" />
               </list>
             </option>
@@ -623,7 +837,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3404941" />
               </list>
             </option>
           </splitter-proportions>
@@ -631,11 +845,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gson-2.8.3</last-edited>
+          <last-edited>javax.json-1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3404941" />
               </list>
             </option>
           </splitter-proportions>
@@ -647,7 +861,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3404941" />
               </list>
             </option>
           </splitter-proportions>
@@ -660,7 +874,6 @@
             <option name="proportions">
               <list>
                 <option value="0.3404941" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

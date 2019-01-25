@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Students2 - Loop through data collections, presented in a data table</title>
+
+    <h:outputStylesheet library="css" name="student_table_demo.css" />
+</h:head>
+
+<h:body>
+    <h3>Students2 - Loop through data collections, presented in a data table</h3>
+    <hr />
+
+    <h:dataTable
+            value="#{student2DbUtil.students2}"
+            var="tempSudent"
+            styleClass="demo-table"
+            headerClass="demo-table-header"
+            rowClasses="demo-table-odd-row,demo-table-even-row">
+
+        <h:column>
+            <!--Column header-->
+            <f:facet name="header">First name</f:facet>
+
+            <!--looped value for each row-->
+            #{tempSudent.firstName}
+        </h:column>
+
+        <h:column>
+            <!--Column header-->
+            <f:facet name="header">Last name</f:facet>
+
+            <!--looped value for each row-->
+            #{tempSudent.lastName}
+        </h:column>
+
+        <h:column>
+            <!--Column header-->
+            <f:facet name="header">Email</f:facet>
+
+            <!--looped value for each row-->
+            #{tempSudent.email}
+        </h:column>
+
+    </h:dataTable>
+</h:body>
+</html>

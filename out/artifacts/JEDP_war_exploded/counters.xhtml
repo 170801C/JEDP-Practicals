@@ -6,22 +6,26 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
-    <title>Counters - Application, Session, Request scopes test</title>
+    <title>Counters</title>
 </h:head>
 
 <h:body>
-    <h3>Counters - Application, Session, Request scopes test</h3>
+    <h:outputText value="Application Scoped Counter: #{applicationScoped_Counter.counter}" />
     <br />
 
-    <!--<h:outputText value="#{counters.value}" />-->
-    Counter: #{counters.value}
+    <h:outputText value="Session Scoped Counter: #{sessionScoped_Counter.counter}" />
+    <br />
+
+    <h:outputText value="Request Scoped Counter: #{requestScoped_Counter.counter}" />
     <br />
 
     <h:form>
-        <h:commandButton value="Increment" action="#{counters.increment()}" />
-        <!--<h:commandButton value="Increment">-->
-            <!--<f:actionListener binding="#{counters.increment()}" />-->
-        <!--</h:commandButton>-->
+        <h:commandButton value="submit">
+            <f:actionListener binding="#{applicationScoped_Counter.increment()}" />
+            <f:actionListener binding="#{sessionScoped_Counter.increment()}" />
+            <f:actionListener binding="#{requestScoped_Counter.increment()}" />
+        </h:commandButton>
+
     </h:form>
 </h:body>
 </html>
